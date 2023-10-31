@@ -21,3 +21,5 @@ File_Name = 'File_Name'
 
 # 视频自动化处理队列
 PipeLine = 'PipeLine'
+
+# 查询视频处理队列状态
