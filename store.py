@@ -1,6 +1,12 @@
 from qiniu import Auth
 import qiniu.config
 
+import configparser
+
+# 读取配置文件
+config = configparser.ConfigParser()
+config.read('config.ini')
+
 Access_Key = 'Access_Key'
 Secret_Key = 'Secret_Key'
 
@@ -15,5 +21,3 @@ File_Name = 'File_Name'
 
 # 视频自动化处理队列
 PipeLine = 'PipeLine'
-
-
